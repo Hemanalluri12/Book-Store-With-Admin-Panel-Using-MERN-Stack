@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@layer base {
+  html,
+  :host {
+    text-size-adjust: 100%; /* modern, safe version */
+    /* -webkit-text-size-adjust: 100%; <- removed on purpose */
+  }
+}
